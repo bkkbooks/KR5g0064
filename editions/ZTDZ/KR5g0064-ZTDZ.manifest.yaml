@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0064/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0064/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 老子微旨例略
+  date: '2015-08-29 02:53:36.387513'
+  source:
+    repository: kanripo
+    path: KR5g0064
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0064_000-ZTDZ.yaml, hash: 'sha256:6fda44c402000a37d0c81ac207632b3bd47c57b3f93776a2842ca00b1d643a3c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0064_000-ZTDZ.markers.yaml, hash: 'sha256:a0d69bc30787da739bed29679db419a75e7c56d45e7c40f8c69a58026cd79ce9'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0064_SJB_000-320429c
+    span:
+    - body
+    - 0
+    - 2566
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:121f1824bd3ca1dabcde8491b093a4fea7853360fa0185e839bc795b4a743ec4
